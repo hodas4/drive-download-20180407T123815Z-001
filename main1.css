@@ -2,15 +2,13 @@ body {
  position: relative;
  height: 100%;
  font-family: 'Open Sans', sans-serif;
- display: block;
- width: 1280px;
- margin: 0 auto;
-
+ display: block;  
+    
 }
 
 .header {
     background-color: #02918c;
-    height: 61px;
+    height: 61px; 
     width: auto;
     margin-top: -9px;
     margin-left: -8px;
@@ -24,11 +22,10 @@ body {
 }
 
 .green {
-  color: #cfc91d;
-  font-size: 26px;
-  font-weight: 800;
-  display: inline-block;
-  margin-left: 2px;
+  color: #cfc91d; 
+    font-size: 26px;
+    font-weight: 800;
+    display: inline-block;
 }
 
 
@@ -37,8 +34,8 @@ body {
     font-weight: 800;
     position: relative;
     display: inline-block;
-    margin-top: -8px;
-    margin-left: 50px;
+    margin-top: -15px;
+    margin-left: 10px;
     height: 50px;
 
 }
@@ -47,36 +44,34 @@ body {
 .main-header {
  background-image: url(http://i.cubeupload.com/FP7VIw.jpg);
  background-clip: border-box;
- background-repeat: no-repeat;
+ background-repeat: no-repeat; 
  height: auto;
  position: cover;
  margin-top: -25px;
  margin-left: -8px;
  height: 730px;
- width: auto;
-
+ width: auto;    
+   
 }
 
 
 .main-menu {
   display: inline-block;
-  top: 1px;
+  top: 0;
   margin: 0;
   padding: 0;
-  right: 43px;
+  right: 10px;
   position: absolute;
-
+ 
 }
 
 .main-menu li {
-  display: inline-block;
+  display: inline-block; 
   padding-left: 40px;
   right: 70px;
   color: #ffffff;
-  font-size: 12px;
-  margin-right: 8px;
-  font-weight:bold;
-
+  font-size: 16px;
+  margin-right: 15px;
 }
 
 .header-content h1 {
@@ -84,7 +79,7 @@ body {
     font-size: 66px;
     color: white;
     letter-spacing: 31px;
-
+    
     margin-top: 13px;
     margin-bottom: 0px
 }
@@ -95,8 +90,8 @@ body {
     font-size: 30px;
     color: white;
     margin-bottom: 4px;
-
-
+    
+ 
 }
 
 .header-content h3 {
@@ -104,7 +99,7 @@ body {
     font-size: 18px;
     color: white;
     margin: 10px;
-
+    
 }
 
 
@@ -112,26 +107,26 @@ body {
 
 .header-content {
   margin-top: 25px;
-  text-align: center;
-  vertical-align: middle;
+  text-align: center; 
+  vertical-align: middle; 
   padding-top: 250px;
 }
 
 
 .button1 {
-  display: block;
-  width: 195px;
-  height: 45px;
-  background-color: #cfc91d;
-  text-align: center;
+  display: block;  
+  width: 195px; 
+  height: 45px; 
+  background-color: #cfc91d; 
+  text-align: center; 
   text-decoration-color: black;
   text-decoration: none;
-  border-radius: 0px;
-  text-transform: uppercase;
+  border-radius: 0px; 
+  text-transform: uppercase; 
   margin: auto;
   top: 0;
-  left: 0;
-  bottom: 0;
+  left: 0; 
+  bottom: 0; 
   right: 0;
   font-weight: 800;
   font-size: 14px;
@@ -150,12 +145,12 @@ body {
 }
 
 .info p {
-
-
+   
+  
     height: auto;
     font-size: 16px;
     color: #7e8287;
-    text-align: center;
+    text-align: center;  
     position: relative;
 }
 .info p strong {
@@ -173,26 +168,26 @@ body {
    color: #7e8287;
    font-size: 16px;
    text-align: center;
-
-
+  
+    
 }
 
 .decsr {
     height: 260px;
-    text-align: center;
-
-
+    text-align: center; 
+    
+    
 }
 
 
 .decsr h2 {
-
+   
     color: #7e8287;
     font-size: 16px;
     position: relative;
     text-align: center;
     width: 205px;
-
+    
 }
 
 .decsr p {
@@ -213,7 +208,7 @@ body {
   float: left;
   padding: 15px;
   position: relative;
-
+  
 }
 
 .logos {
@@ -221,7 +216,7 @@ body {
     text-align: center;
     vertical-align: middle;
     background-repeat: no-repeat;
-
+   
 }
 
 .decsr div:before {
@@ -230,28 +225,28 @@ display: inline-block;
 position: absolute;
 height: 90%;
 left: 49.8%;
-margin-left: 100px;
+margin-left: 100px;    
 border: 1px solid #f1f1f1;
 z-index: -10;
-
+    
 }
 
 .services {
  background-color: #f0f0e8;
- background-image: url(http://i.cubeupload.com/Xm9c1v.jpg);
+ background-image: url(http://i.cubeupload.com/Xm9c1v.jpg); 
  background-position: top center;
- background-repeat: no-repeat;
+ background-repeat: no-repeat; 
  background-size: hover;
  position: relative;
  height: 730px;
- width: auto;
- margin-left: -7px;
+ width: auto; 
+ margin-left: -7px;    
 }
 
 .services h1 {
   color: #02918c;
   font-size: 46px;
-  text-align: left;
+  text-align: left; 
     margin-left: 7px;
 }
 
@@ -259,25 +254,25 @@ z-index: -10;
    content: "~~~~~ :: ~~~~~";
    color: #7e8287;
    font-size: 16px;
-   text-align: center;
+   text-align: center;  
 }
 .services p {
   font-size: 16px;
   color: #7e8287;
   width: 450px;
-
+   
 }
 
 .content {
     width: 550px;
-
+    
 }
 .content h2 {
     font-family: OpenSans;
     font-weight: 800;
     font-size: 16px;
     color: #7e8287;
-
+    
 }
 .content div {
     float: left;
@@ -292,7 +287,7 @@ z-index: -10;
     height: 50px;
     width: 200px;
     text-align: left;
-
+        
 }
 .work {
     height: 700px;
@@ -332,7 +327,7 @@ z-index: -10;
     height: 200px;
     background-size: cover;
     background-position: center;
-    object-fit: cover;
+    object-fit: cover; 
      margin: 0;
 }
 .facts{
@@ -346,45 +341,45 @@ z-index: -10;
     padding-top: 30px;
     color: #7e8287;
     font-size: 16px;
-    text-align: center;
+    text-align: center; 
 }
 .question1 {
-
+    
     text-align: center;
     background-color: #0b0b0b;
     border: none;
-    border-bottom: 2px solid #7e8287;
+    border-bottom: 2px solid #7e8287;  
     width: 640px;
 }
 .question2 {
     text-align: center;
     background-color: #0b0b0b;
     border: none;
-    border-bottom: 2px solid #7e8287;
+    border-bottom: 2px solid #7e8287;  
     width: 915px;
     margin: 30px;
 }
 
 form {
-  text-align: center;
+  text-align: center;  
 }
 
 .button2 {
-  display: block;
-  width: 195px;
-  height: 45px;
-  background-color: #cfc91d;
-  text-align: center;
+  display: block;  
+  width: 195px; 
+  height: 45px; 
+  background-color: #cfc91d; 
+  text-align: center; 
   text-decoration-color: black;
-  border-color: #cfc91d;
+  border-color: #cfc91d;    
   text-decoration: none;
-  border-radius: 0px;
+  border-radius: 0px; 
   padding-top: 10px;
-  text-transform: uppercase;
+  text-transform: uppercase; 
   margin: auto;
   top: 0;
-  left: 0;
-  bottom: 0;
+  left: 0; 
+  bottom: 0; 
   right: 0;
   font-weight: 800;
   font-size: 14px;
@@ -405,5 +400,5 @@ footer p {
     font-size: 12px;
     color: #7e8287;
     padding-top: 50px;
-
+    
 }
