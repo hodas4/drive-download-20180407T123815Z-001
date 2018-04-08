@@ -10,7 +10,7 @@ body {
 
 .header {
     background-color: #02918c;
-    height: 61px;
+    height: 64px;
     width: auto;
     margin-top: -9px;
     margin-left: -8px;
@@ -18,14 +18,14 @@ body {
 }
 .white {
     color: #ffffff;
-     font-size: 26px;
+     font-size: 26.18px;
     font-weight: 800;
     display: inline-block;
 }
 
 .green {
   color: #cfc91d;
-  font-size: 26px;
+     font-size: 26.18px;
   font-weight: 800;
   display: inline-block;
   margin-left: 2px;
@@ -33,11 +33,11 @@ body {
 
 
 .heading-main  {
-    font-size: 26px;
+     font-size: 26.18px;
     font-weight: 800;
     position: relative;
     display: inline-block;
-    margin-top: -8px;
+    margin-top: -5px;
     margin-left: 50px;
     height: 50px;
 
@@ -60,7 +60,7 @@ body {
 
 .main-menu {
   display: inline-block;
-  top: 1px;
+  top: 4px;
   margin: 0;
   padding: 0;
   right: 43px;
