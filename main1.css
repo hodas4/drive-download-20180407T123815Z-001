@@ -48,7 +48,6 @@ body {
   background-image: url(http://i.cubeupload.com/FP7VIw.jpg);
   background-clip: border-box;
   background-repeat: no-repeat;
-  height: auto;
   position: cover;
   margin-top: -25px;
   margin-left: -8px;
@@ -154,6 +153,8 @@ body {
     font-size: 46px;
     text-align: center;
     position: relative;
+    text-transform: uppercase;
+        letter-spacing: 3px;
 }
 
 .info p {
@@ -164,7 +165,14 @@ body {
     color: #7e8287;
     text-align: center;
     position: relative;
+        margin-top: -26px;
 }
+
+#p_info {
+  margin-top: 20px;
+  line-height: 2;
+}
+
 .info p strong {
     font-weight: 800;
     font-size: 23px;
@@ -172,6 +180,7 @@ body {
 
 .info {
     text-align: center;
+    margin-top: 82px;
 
 }
 
@@ -188,6 +197,7 @@ body {
     height: 260px;
     text-align: center;
 
+    margin-top: 49px;
 
 }
 
@@ -196,23 +206,39 @@ body {
 
     color: #7e8287;
     font-size: 16px;
-    position: relative;
-    text-align: center;
-    width: 205px;
+margin: 0 auto;
+margin-top: 18px;
+
 
 }
+
+.decsr h2:last-child {
+
+margin-top: 18px;
+margin-left: 10px;
+}
+
+.decsr h2:first-child {
+
+margin-top: 18px;
+margin-left: 10px;
+
+
+}
+
 
 .decsr p {
     color: #7e8287;
     font-size: 11px;
-    width: 205px;
+
     height: auto;
-    position: relative;
-    text-align: center;
+
+margin: 0 auto;
+
 }
 
 .decsr div {
-  width: 25%;
+  width: 22.6%;
   float: right;
   box-sizing: border-box;
   text-align: center;
@@ -223,25 +249,49 @@ body {
 
 }
 
-.logos {
-    background-position: top;
-    text-align: center;
-    vertical-align: middle;
-    background-repeat: no-repeat;
+.box4 {
+  width: 286px;
+  height: 255px;
+
+float: left;
+text-align: center;
+margin-top: 10px;
+border-right: 1px solid #d9dbdb;
+}
+
+.box4:last-child {
+border-right: 0 ;
+}
+
+.box4 img {
+    margin-top: 36px;
+}
+
+.box4:last-child img {
+    margin-left: -24px;
+}
+
+.box4  h2{
+    font-size: 16px;
+    color: #7e8287;
+    margin: 21px auto 25px auto;
+}
+
+.box4 p {
+    font-size: 11px;
+    color: #7e8287;
+    padding: 0 50px;
+    line-height: 1.9;
 
 }
 
-.decsr div:before {
-content: "";
-display: inline-block;
-position: absolute;
-height: 90%;
-left: 49.8%;
-margin-left: 100px;
-border: 1px solid #f1f1f1;
-z-index: -10;
-
+/* ширина макета и центрируем по середине . оверфлоу чтобы обьекты норм обтекали*/
+.layout {
+    width: 1163px;
+    margin: 70px auto 95px auto;
+    overflow: hidden;
 }
+
 
 .services {
  background-color: #f0f0e8;
